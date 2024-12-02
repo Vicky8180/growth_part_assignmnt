@@ -1,6 +1,11 @@
+
+
 # ✨ AI Chat Assistance
 
-#### AI Chat Assistance is a powerful tool designed to help users interact with an intelligent chatbot that can address their queries efficiently. Built with the cutting-edge Gemini AI model, this project leverages advanced natural language processing capabilities to provide insightful and context-aware responses.
+#### AI Chat Assistance is a powerful tool designed to help users interact with an intelligent chatbot that can address their queries efficiently. Built with the cutting-edge Gemini AI model, this project leverages advanced natural language processing capabilities to provide insightful and context-aware responses. [Live](https://growth-part-assignmnt.vercel.app/)
+
+[Watch Video](https://drive.google.com/file/d/1L9TqEbYpwjPAC1QGO_90ZSc56gt3xVz1/view)         
+
 
 
 ![AI Chat Assistance](./frontend/src//components//assets/02.12.2024_10.06.38_REC.png)  
@@ -17,7 +22,7 @@
 
 ## 🖼️ Screenshots
 
-| Customization Panel | Chatbot UI |
+| Code based Query | Video |
 |---------------------|------------|
 | ![Code](./frontend//src//components//assets//02.12.2024_09.37.58_REC.png) | ![Video](./frontend//src//components/assets//02.12.2024_09.39.34_REC.mp4) |
 
