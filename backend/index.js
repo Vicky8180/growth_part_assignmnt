@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 const allowedOrigins = [
   "http://localhost:3000",
-
+"https://growth-part-assignmnt.vercel.app"
 
 ];
 
