@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# ✨ AI Chat Assistance
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### AI Chat Assistance is a powerful tool designed to help users interact with an intelligent chatbot that can address their queries efficiently. Built with the cutting-edge Gemini AI model, this project leverages advanced natural language processing capabilities to provide insightful and context-aware responses.
 
-## Available Scripts
 
-In the project directory, you can run:
+![AI Chat Assistance](./frontend/src//components//assets/02.12.2024_10.06.38_REC.png)  
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🎨 **Chat Completion:** Engage in meaningful conversations with AI to address your queries in real-time.
+- 🔤 **Query Prompt:** Provide specific prompts to guide the AI for precise and relevant answers.
+- ⚡ **File Upload and Insights:** Upload files in supported formats (e.g., .xlsx, .xls). AI processes the uploaded file to extract valuable insights. Ask specific queries related to the content of the uploaded file.
+- 🛠️ **Prompt History Management**: AI remembers the user's prompt history for context retention across sessions.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🖼️ Screenshots
 
-### `npm run build`
+| Customization Panel | Chatbot UI |
+|---------------------|------------|
+| ![Code](./frontend//src//components//assets//02.12.2024_09.37.58_REC.png) | ![Video](./frontend//src//components/assets//02.12.2024_09.39.34_REC.mp4) |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+## 🚀 Quick Start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these steps to get started with your customizable chatbot:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1️⃣ Clone the Repository
+```bash
+$ git clone https://github.com/Vicky8180/growth_part_assignmnt
+$ cd custom-chatbot
+```
 
-### `npm run eject`
+### 2️⃣ Install Dependencies for frontend
+```bash
+$ npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3 Install Dependencies for backend
+```bash
+$ npm install
+```
+### 4 Environment variables configured in .env file for both frontend and backend
+```bash
+REACT_APP_BASE_URL_PORT="your backend server this is FOR FRONTEND .ENV" 
+API_KEYY=<"your_gemini_ai_api_key this is FOR BACKEND .ENV">
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 5 Start the Development Server
+```bash
+$ npm start
+```
+The app will be available at `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 6 Build for Production
+```bash
+$ npm run build
+```
+Your optimized app will be in the `build/` directory.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📚 Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **React:** A JavaScript library for building user interfaces.
+- **Redux:** State management for predictable and scalable apps.
+- **CSS Modules:** Scoped and reusable styling.
+- **Node& Express:** Scoped and reusable styling.
+- **Gemini AI Model** Gemini AI model for robust natural language processing.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome! Feel free to:
 
-### Analyzing the Bundle Size
+1. Fork this repository.
+2. Create a new branch: `git checkout -b feature-branch-name`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature-branch-name`.
+5. Submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 💬 Contact
 
-### Deployment
+For support or inquiries, please reach out:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Email: [vyadav99x1@gmail.com](vyadav99x1@gmail.com)
+- GitHub: [https://github.com/Vicky8180](https://github.com/Vicky8180)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Made with ❤️ by [Anoop Yadav].
