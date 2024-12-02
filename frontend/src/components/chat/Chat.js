@@ -13,7 +13,7 @@ export default function ChatBox() {
   const [jsonData, setJsonData] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [messages, setMessages] = useState([
-    { send: false, message: "Please Ask you queries!" },
+    { send: false, message: "Please Ask your queries!" },
   ]);
 
   const colors = useSelector((state) => state.UpdateColor) || [];
@@ -77,7 +77,7 @@ export default function ChatBox() {
           : input;
 
         setIsLoading(true);
-        const response = await axios.post("http://localhost:5000/api/message", {
+        const response = await axios.post(`${process.env.REACT_APP_BASE_URL_PORT}/api/message`, {
           userId: "12345",
           userPrompt: prompt,
         });
